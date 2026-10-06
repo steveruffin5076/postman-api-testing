@@ -1,6 +1,8 @@
 # Postman API Testing – JSONPlaceholder
 
-API test collection built in Postman to validate CRUD operations against the [JSONPlaceholder](https://jsonplaceholder.typicode.com) REST API.
+API test collection built in Postman to validate CRUD operations against the [JSONPlaceholder](https://jsonplaceholder.typicode.com) public REST API.
+
+> **About this project:** This is an AI-guided learning project. The test scripts were provided by Claude (AI). I set up the collection, requests and request bodies in Postman, ran the full test suite, and exported the results.
 
 ## Test Results
 
@@ -19,7 +21,7 @@ API test collection built in Postman to validate CRUD operations against the [JS
 
 ## Tools
 
-- Postman (requests, JavaScript test scripts, Collection Runner)
+- Postman (requests, test scripts, Collection Runner)
 - JavaScript (`pm.test`, `pm.expect` assertions)
 - JSON request bodies
 
@@ -29,9 +31,10 @@ API test collection built in Postman to validate CRUD operations against the [JS
 2. In Postman, click **Import** and select the file
 3. Right-click the collection and choose **Run**, then click **Start run**
 
-## Skills Demonstrated
+## What I Learned
 
-- REST API testing (GET, POST, PUT, DELETE)
-- Status code and response body validation
-- Response time checks
-- Writing automated test assertions in JavaScript
+- The four main REST API actions: GET (read), POST (create), PUT (update), DELETE (remove)
+- What common status codes mean: 200 OK, 201 Created
+- How to send JSON request bodies in Postman
+- How to read and run test assertions that check status codes, response data and response time
+- How to run a whole collection at once with the Collection Runner and export it
